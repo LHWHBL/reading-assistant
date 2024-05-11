@@ -29,5 +29,6 @@ streamlit==1.30.0
 charset-normalizer==3.3.2
 os
 pandas
+pydantic==2.7.1
 warnings
 re
