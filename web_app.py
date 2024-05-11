@@ -2,12 +2,12 @@
 import os
 import pandas as pd
 import streamlit as st
-from langchain_community.vectorstores import Qdrant
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_community.chat_models import ErnieBotChat
 from langchain_community.embeddings import ErnieEmbeddings
+from langchain_community.vectorstores import Qdrant
 from langchain_community.document_loaders import PyPDFLoader,Docx2txtLoader,TextLoader
 from langchain.retrievers.multi_query import MultiQueryRetriever
 from langchain_community.document_transformers import LongContextReorder
